@@ -45,7 +45,7 @@ export const Main = styled.main`
   p {
     font-family: sans-serif;
 
-    @media(max-width: 375px) {
+    @media(max-width: 435px) {
       text-align: center;
     }
   }
