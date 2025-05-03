@@ -1,12 +1,69 @@
-# React + Vite
+# FURIA Chatbot 🦁
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demonstração do projeto
+<img src="./src/assets/furia.gif" />
 
-Currently, two official plugins are available:
+Este projeto é um **chatbot simples** feito em **React** com **Styled-Components**, onde o usuário pode interagir e receber informações sobre o time de esports FURIA.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- [React](https://react.dev/)
+- [Styled-Components](https://styled-components.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📋 Funcionalidades
+
+- Chat interativo entre o usuário e o "bot da FURIA".
+- Respostas automáticas baseadas em palavras-chave como:
+  - **Elenco**
+  - **História**
+  - **Títulos**
+  - **Próximo jogo**
+  - **Ranking**
+  - **Coach**
+  - **Torcida**
+- Resposta padrão caso o bot não entenda a pergunta.
+
+## 🚀 Como rodar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/hpbeta/chatbot-furia.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd chatbot-furia
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+(ou `npm start` se estiver usando `create-react-app`)
+
+## 🖼️ Layout
+
+O layout é simples e estilizado com **Styled-Components**, focando na usabilidade do chat e na identidade visual da FURIA.
+
+## 📚 Observações
+
+- O chatbot não utiliza inteligência artificial; ele responde com base na detecção de palavras-chave digitadas pelo usuário.
+- As mensagens são simuladas e pré-programadas para fins de estudo e prática de React e Styled-Components.
+
+## 📩 Contato
+
+Se quiser trocar uma ideia ou sugerir melhorias:
+
+**João Lucas** — (https://linkedin.com/in/hpbeta) 
+
+**GitHub** —(https://github.com/hpbeta)
